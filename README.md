@@ -43,4 +43,6 @@ During training, I found the architecture/data augmentation methods are very sen
 
 Hopefully more data will help in these cases, but in general, probably some other methods probably are also needed to make the driving robust, and to make the car has a better understanding of the scene and the situation it is currently in.
 
+One more way to do this is probably to leverage pretrained models like VGG/Inception/Resnet to do transfer learning, using the traing data to tune the model. The pretrained models are likely to have better feature extraction, given they were trained on much more image data, although given the caveat that thoese images are not from the simulator environment and may have different characteristis.
+
 
